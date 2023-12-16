@@ -582,11 +582,8 @@ body{
 .contacts-form-comment-user:focus{
     border-color: #4D5AE5;
 }
-.contacts-form-input-lable:focus{
-    border-color: #4D5AE5;
-}
 
-.contacts-form-input-lable:focus +contacts-form-input-icons{
+.contacts-form-input-lable:focus + .contacts-form-input-icons{
     fill: #4D5AE5;
 } 
 .contacts-form-ch{
@@ -626,6 +623,9 @@ body{
     justify-content: center;
     fill: transparent;
     cursor: pointer;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+}
+.checkbox-lable-span:focus{
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .contacts-form-a{
