@@ -581,6 +581,7 @@ body{
 }
 .contacts-form-comment-user:focus{
     border-color: #4D5AE5;
+    fill: #4D5AE5;
 }
 .contacts-form-ch{
     margin-bottom: 24px;
@@ -591,7 +592,7 @@ body{
     letter-spacing: 0.04em;
     color:#8e8f99;
 }
-.contacts-form-inpbt:checked{  
+.checkbox-lable-span:checked{  
     border: none;
 }
 .contacts-form-inpbt:checked 
