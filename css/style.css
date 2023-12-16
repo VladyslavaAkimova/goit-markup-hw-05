@@ -600,6 +600,7 @@ body{
 > .checkbox-lable-span{
     background-color: #404bbf;
     fill: #F4F4FD;
+    border: none;
 }
 .checkbox-lable-span{
     width: 16px;
