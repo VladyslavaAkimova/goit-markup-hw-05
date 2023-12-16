@@ -581,8 +581,11 @@ body{
 }
 .contacts-form-comment-user:focus{
     border-color: #4D5AE5;
-    fill: #4D5AE5;
 }
+
+.contacts-form-comment-user:focus +contacts-form-input-icons{
+    fill: #4D5AE5;
+} 
 .contacts-form-ch{
     margin-bottom: 24px;
 }
@@ -594,6 +597,11 @@ body{
 }
 .checkbox-lable-span:checked{  
     border: none;
+}
+.contacts-form-inpbt:focus 
++.checkbox-lable
+>.checkbox-lable-span{
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .contacts-form-inpbt:checked 
 + .checkbox-lable
